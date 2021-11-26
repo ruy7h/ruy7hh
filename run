@@ -31,7 +31,7 @@ echo -e "${RED}
 ¦ CAUTION:${WHITB} Your Token Bot Not Found .
 ¦ NOW I Run File ${SMAY}./RUN.lua${WHITB} To Enter Data For You Bot${CNIL}. \n
 \n\n"
-lua ./inc/Run.lua
+./run
 exit;
 else
 TOKEN=`cat ./inc/Token.txt`

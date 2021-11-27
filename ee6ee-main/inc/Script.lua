@@ -225,7 +225,7 @@ mmmmm = arg.UserName:gsub("@","")
 sendMsg(arg.ChatID,arg.MsgID," ["..data.title_.."](t.me/"..mmmmm..")")
 end,{ChatID=msg.chat_id_,MsgID=msg.id_,UserName=info.username})
 else
-sendMsg(msg.chat_id_,msg.id_,' ['..info.username..'](t.me/ rnnni)  \n')
+sendMsg(msg.chat_id_,msg.id_,' ['..info.username..'](t.me/ IOS_Animee)  \n')
 end
 
 break
@@ -3607,8 +3607,8 @@ end
 if (MsgText[1]== "ايديي" or MsgText[1]=="ايدي") and msg.type == "pv" then return  "\n"..msg.sender_user_id_.."\n"  end
 
 if MsgText[1]== "قناة السورس" and msg.type == "pv" then
-local inline = {{{text="قناه‏‏ السـورس : معاذ ",url="t.me/rnnni"}}}
-send_key(msg.sender_user_id_,'  [قناة السورس: معاذ](t.me/rnnni)',nil,inline,msg.id_)
+local inline = {{{text="قناه‏‏ السـورس : معاذ ",url="t.me/IOS_Animee"}}}
+send_key(msg.sender_user_id_,'  [قناة السورس: معاذ](t.me/IOS_Animee)',nil,inline,msg.id_)
 return false
 end
 
